@@ -1,9 +1,12 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Blackboard.tmTheme",
-	"default_line_ending": "unix",
+	"color_scheme": "Packages/User/Espresso Soda.tmTheme",
 	"detect_indentation": false,
 	"draw_white_space": "all",
-	"ensure_newline_at_eof_on_save": false,
+	"ignored_packages":
+	[
+		"Vintage",
+		"Twig"
+	],
 	"file_exclude_patterns":
 	[
 		".DS_Store",
@@ -19,7 +22,15 @@
 		".git",
 		"node_modules"
 	],
-	"font_size": 15.0,
+	"phoenix_color_blue": true,
+	"phoenix_color_expanded_folder": true,
+	"phoenix_dirty_bottom_bar": true,
+	"phoenix_dirty_bottom_bar_red": true,
+	"phoenix_eighties": false,
+	"phoenix_highlight_current_tab": true,
+	"phoenix_sidebar_tree_large": true,
+	"theme": "Phoenix Light.sublime-theme",
+	"font_size": 13.0,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"line_padding_bottom": 6,
@@ -29,8 +40,23 @@
 	[
 		80
 	],
-	"tab_size": 2,
-	"translate_tabs_to_spaces": false,
+	"todo":
+	{
+		"folder_exclude_patterns":
+		[
+			"vendor",
+			"tmp",
+			"cache",
+			"docs"
+		],
+		"patterns":
+		{
+			"HACK": "HACK[\\s]*?:+(?P<hack>.*)$",
+			"XXX": "XXX[\\s]*?:+(?P<xxx>.*)$"
+		}
+	},
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true
 }
