@@ -1,5 +1,7 @@
 {
 	"color_scheme": "Packages/User/Espresso Soda.tmTheme",
+	"default_encoding": "UTF-8",
+	"show_encoding": true,
 	"detect_indentation": false,
 	"ignored_packages":
 	[
@@ -29,11 +31,11 @@
 	"phoenix_highlight_current_tab": true,
 	"phoenix_sidebar_tree_large": true,
 	"theme": "Phoenix Light.sublime-theme",
-	"font_size": 14.0,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"line_padding_bottom": 3,
-	"matchBracketsAngle": true,
+	"match_brackets": true,
+	"match_brackets_angle": true,
 	"remember_open_files": false,
 	"rulers":
 	[
