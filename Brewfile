@@ -12,7 +12,11 @@ upgrade
 install coreutils
 # Install some other useful utilities like `sponge`
 install moreutils
-# Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
+# Install GNU `find`,
+install `locate`,
+install `updatedb`,
+install and `xargs`,
+install g-prefixed
 install findutils
 # Install Bash 4
 install bash
@@ -22,34 +26,75 @@ install wget --enable-iri
 
 # Install RingoJS and Narwhal
 # Note that the order in which these are installed is important; see http://git.io/brew-narwhal-ringo.
-install ringojs
-install narwhal
+#install ringojs
+#install narwhal
 
 # Install more recent versions of some OS X tools
 install vim --override-system-vi
 install homebrew/dupes/grep
 install josegonzalez/homebrew-php/php55
 
-# This formula didn’t work well last time I tried it:
-#install homebrew/dupes/screen
-
 # Install other useful binaries
 install ack
-install pv
-#install exiv2
+install ant
+install autoconf
+install bash
+install brew-cask
+install cloc
+install coreutils
+install curl
+install findutils
+install fish
+install freetype
+install geoip
+install gettext
 install git
-install imagemagick --with-webp
+install glib
+install gmp
+install gnutls
+install grep
+install icu4c
+install jpeg
+install jsmin
+install libffi
+install libgcrypt
+install libgpg-error
+install libpng
+install libtasn1
+install libtool
+install lua52
 install lynx
+install narwhal
+install nettle
+install nmap
 install node
+install openssl
+install p7zip
+install pcre
+install php53
+install php53-intl
+install php55
 install pigz
+install pkg-config
+install qt
+install readline
 install rename
 install rhino
+install ringojs
+install serf
+install sqlite
+install subversion
 install tree
+install unixodbc
 install webkit2png
+install wget
+install wireshark
+install xz
+install zlib
 install zopfli
-install p7zip
-
-install homebrew/versions/lua52
 
 # Remove outdated versions from the cellar
 cleanup
+
+
+
