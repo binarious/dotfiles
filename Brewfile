@@ -12,12 +12,10 @@ upgrade
 install coreutils
 # Install some other useful utilities like `sponge`
 install moreutils
-# Install GNU `find`,
-install `locate`,
-install `updatedb`,
-install and `xargs`,
-install g-prefixed
+# Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed
 install findutils
+# Install GNU `sed`, overwriting the built-in `sed`
+install gnu-sed --default-names
 # Install Bash 4
 install bash
 
@@ -32,7 +30,7 @@ install wget --enable-iri
 # Install more recent versions of some OS X tools
 install vim --override-system-vi
 install homebrew/dupes/grep
-install josegonzalez/homebrew-php/php55
+install homebrew/php/php55 --with-gmp
 
 # Install other useful binaries
 install ack
