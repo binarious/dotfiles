@@ -8,7 +8,7 @@ alias ..... "cd ../../../.."
 
 # Shortcuts
 alias logs "cd /Applications/MAMP/logs"
-alias db "cd ~/Documents/Dropbox"
+alias db "cd ~/Dropbox"
 alias dl "cd ~/Downloads"
 alias dt "cd ~/Desktop"
 alias p "cd ~/projects"
