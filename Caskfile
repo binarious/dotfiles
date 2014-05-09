@@ -3,8 +3,6 @@
 
 tap caskroom/versions
 
-cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webp-quicklook && qlmanage -r
-
 cask install \
 dropbox \
 google-chrome \
@@ -30,4 +28,17 @@ awareness \
 colloquy \
 contexts \
 evernote \
-spotify 2> /dev/null
+spotify \
+2> /dev/null
+
+# Quicklook-Plugins
+cask install \
+qlcolorcode \
+qlstephen \
+qlmarkdown \
+quicklook-json \
+qlprettypatch \
+quicklook-csv \
+betterzipql \
+webp-quicklook \
+&& qlmanage -r
