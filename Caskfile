@@ -3,28 +3,31 @@
 
 tap caskroom/versions
 
-cask install dropbox 2> /dev/null
-cask install google-chrome 2> /dev/null
-cask install google-chrome-canary 2> /dev/null
-cask install imageoptim 2> /dev/null
-cask install opera 2> /dev/null
-cask install sublime-text 2> /dev/null
-cask install the-unarchiver 2> /dev/null
-cask install vlc 2> /dev/null
-cask install adium 2> /dev/null
-cask install alfred 2> /dev/null
-cask install firefox 2> /dev/null
-cask install sequel-pro 2> /dev/null
-cask install keepassx 2> /dev/null
-cask install mamp 2> /dev/null
-cask install cyberduck 2> /dev/null
-cask install owncloud 2> /dev/null
-cask install spectacle 2> /dev/null
-cask install skype 2> /dev/null
-cask install tunnelblick 2> /dev/null
-cask install appcleaner 2> /dev/null
-cask install awareness 2> /dev/null
-cask install colloquy 2> /dev/null
-cask install contexts 2> /dev/null
-cask install evernote 2> /dev/null
-cask install spotify 2> /dev/null
+cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webp-quicklook && qlmanage -r
+
+cask install \
+dropbox \
+google-chrome \
+google-chrome-canary \
+imageoptim \
+opera \
+sublime-text \
+the-unarchiver \
+vlc \
+adium \
+alfred \
+firefox \
+sequel-pro \
+keepassx \
+mamp \
+cyberduck \
+owncloud \
+spectacle \
+skype \
+tunnelblick \
+appcleaner \
+awareness \
+colloquy \
+contexts \
+evernote \
+spotify 2> /dev/null
