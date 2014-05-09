@@ -29,6 +29,7 @@ colloquy \
 contexts \
 evernote \
 spotify \
+clamxav \
 2> /dev/null
 
 # Quicklook-Plugins
