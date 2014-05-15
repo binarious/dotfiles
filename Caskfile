@@ -3,43 +3,40 @@
 
 tap caskroom/versions
 
-cask install \
-dropbox \
-google-chrome \
-google-chrome-canary \
-imageoptim \
-opera \
-sublime-text \
-the-unarchiver \
-vlc \
-adium \
-alfred \
-firefox \
-sequel-pro \
-keepassx \
-mamp \
-cyberduck \
-owncloud \
-spectacle \
-skype \
-tunnelblick \
-appcleaner \
-awareness \
-colloquy \
-contexts \
-evernote \
-spotify \
-clamxav \
-2> /dev/null
+cask install dropbox
+cask install google-chrome
+cask install google-chrome-canary
+cask install imageoptim
+cask install opera
+cask install sublime-text
+cask install the-unarchiver
+cask install vlc
+cask install adium
+cask install alfred
+cask install firefox
+cask install sequel-pro
+cask install keepassx
+cask install mamp
+cask install cyberduck
+cask install owncloud
+cask install spectacle
+cask install skype
+cask install tunnelblick
+cask install appcleaner
+cask install awareness
+cask install colloquy
+cask install contexts
+cask install evernote
+cask install spotify
+cask install clamxav
 
 # Quicklook-Plugins
-cask install \
-qlcolorcode \
-qlstephen \
-qlmarkdown \
-quicklook-json \
-qlprettypatch \
-quicklook-csv \
-betterzipql \
-webp-quicklook \
-&& qlmanage -r
+cask install qlcolorcode
+cask install qlstephen
+cask install qlmarkdown
+cask install quicklook-json
+cask install qlprettypatch
+cask install quicklook-csv
+cask install betterzipql
+cask install webp-quicklook
+qlmanage -r
