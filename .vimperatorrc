@@ -1,0 +1,9 @@
+"3.8.2 (created: 2014/02/13 23:52:43)
+
+cabbrev bm bmarks!
+highlight Hint font-family: monospace; font-size: 15px; font-weight: normal; color: lightyellow; background-color: black; border-color: ButtonShadow; border-width: 0px; border-style: solid; padding: 0px 5px;
+highlight HintActive background-color: hotpink; color: white;
+highlight HintElem background-color: pink; color: black;
+source! /Users/Bieder/.vimperatorrc.local
+
+" vim: set ft=vimperator:

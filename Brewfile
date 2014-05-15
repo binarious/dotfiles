@@ -37,7 +37,7 @@ install ack
 install ant
 install autoconf
 install bash
-install brew-cask
+#install brew-cask
 install cloc
 install coreutils
 install curl
@@ -60,7 +60,7 @@ install libgpg-error
 install libpng
 install libtasn1
 install libtool
-install lua52
+#install lua52
 install lynx
 install narwhal
 install nettle
