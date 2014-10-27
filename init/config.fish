@@ -1,4 +1,4 @@
-set PATH /opt/subversion/bin /usr/local/bin $PATH ~/bin ~/.composer/vendor/bin/ /android-sdks/platform-tools /Users/Bieder/bin/Sencha/Cmd/4.0.4.84
+set PATH /opt/subversion/bin /usr/local/bin $PATH ~/bin ~/.composer/vendor/bin
 
 # Easier navigation
 alias .. "cd .."
@@ -12,7 +12,6 @@ alias db "cd ~/Dropbox"
 alias dl "cd ~/Downloads"
 alias dt "cd ~/Desktop"
 alias p "cd ~/projects"
-alias hr "p; cd hunderegister"
 alias g "git"
 alias h "history"
 alias j "jobs"
@@ -28,15 +27,12 @@ alias afk "/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 alias week 'date +%V'
 
 # Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
-alias update 'sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -gf; npm update -gf; sudo gem update --system; sudo gem update; cd ~/.composer/; compupd'
+alias update 'sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update; cd ~/.composer/; compupd'
 
 # IP addresses
 alias ip "dig +short myip.opendns.com @resolver1.opendns.com"
 alias localip "ipconfig getifaddr en1"
 alias ips "ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
-
-# Enhanced WHOIS lookups
-alias whois "whois -h whois-servers.net"
 
 # Flush Directory Service cache
 alias flush "dscacheutil -flushcache | killall -HUP mDNSResponder"
@@ -58,8 +54,6 @@ alias hide "defaults write com.apple.finder AppleShowAllFiles -bool false | kill
 
 # URL-encode strings
 alias urlencode 'python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1]);"'
-
-
 
 alias ls 'ls -GFh'
 

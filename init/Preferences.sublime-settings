@@ -9,20 +9,25 @@
 		"Twig"
 	],
 	"file_exclude_patterns":
-	[
-		".DS_Store",
-		"Desktop.ini",
-		"*.pyc",
-		"._*",
-		"Thumbs.db",
-		".Spotlight-V100",
-		".Trashes"
-	],
+    [
+        ".DS_Store",
+        "Desktop.ini",
+        "*.pyc",
+        "._*",
+        "Thumbs.db",
+        ".Spotlight-V100",
+        ".Trashes",
+        ".cvsignore"
+    ],
 	"folder_exclude_patterns":
-	[
-		".git",
-		"node_modules"
-	],
+    [
+        ".git",
+        "node_modules",
+        ".svn",
+        "nbproject",
+        "cache",
+        "vendor"
+    ],
 	"phoenix_color_blue": true,
 	"phoenix_color_expanded_folder": true,
 	"phoenix_dirty_bottom_bar": true,
