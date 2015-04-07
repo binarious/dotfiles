@@ -8,27 +8,23 @@ cask install google-chrome
 cask install google-chrome-canary
 cask install imageoptim
 cask install opera
-cask install sublime-text
-cask install the-unarchiver
+#cask install sublime-text
+#cask install the-unarchiver
 cask install vlc
 cask install adium
 cask install alfred
 cask install firefox
 cask install sequel-pro
-cask install keepassx
-cask install mamp
+#cask install keepassx
+#cask install mamp
 cask install cyberduck
-cask install owncloud
-cask install spectacle
+#cask install owncloud
 cask install skype
-cask install tunnelblick
 cask install appcleaner
-cask install awareness
 cask install colloquy
 cask install contexts
 cask install evernote
 cask install spotify
-cask install clamxav
 
 # Quicklook-Plugins
 cask install qlcolorcode

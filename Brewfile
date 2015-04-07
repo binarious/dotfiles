@@ -69,8 +69,8 @@ install node
 install openssl
 install p7zip
 install pcre
-install php53
-install php53-intl
+#install php53
+#install php53-intl
 install php55
 install pigz
 install pkg-config
@@ -79,7 +79,7 @@ install readline
 install rename
 install rhino
 install ringojs
-install serf
+#install serf
 install sqlite
 install subversion
 install tree
